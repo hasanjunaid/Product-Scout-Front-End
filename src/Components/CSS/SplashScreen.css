@@ -1,0 +1,25 @@
+.splash-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FFD2DD;
+  }
+  
+  .splash-content {
+    font-size: xx-large;
+    text-align: center;
+    color: #030637;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+ 

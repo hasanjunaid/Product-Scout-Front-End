@@ -1,0 +1,141 @@
+.sip{
+    height: 100%;
+    width: 100%;
+    background-color: #030637;
+    position: absolute;
+}
+
+.a1{
+    position: absolute;
+    height: 300px;
+    bottom: 0px;
+    right: 0px;
+ 
+  
+}
+
+.a2{
+    position: absolute;
+    height: 400px;
+    top:0px;
+    left: 0px;
+}
+
+.mainsignin{
+    position: absolute;
+    height: 630px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.817);
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.mainlogin{
+  position: absolute;
+  height: 480px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.817);
+  border-radius: 30px;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+
+.l1{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.p1{
+    text-align: center;
+    width: 80%;
+    margin-left: 65px;
+    margin-top: -10px;
+    justify-content: center;
+}
+
+.search-input-login{
+  position: relative;
+    padding: 8px 12px;
+    padding-left: 32px;
+    font-size: 16px;
+    background-color: #fffafa;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    height: 50px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.search-input-login i{
+  position: absolute;
+  top: 100px;
+  right: 300px;
+}
+
+.search-input-login .fa-eye-slash {
+  position: absolute !important;
+  top: 100px !important;
+  right: 300px !important;
+}
+
+.search-input-login::placeholder {
+    color: #000000;
+    font-size: 14px;
+  }
+  
+  .search-input-login:focus {
+    background-color: #ffffff;
+  }
+
+  .button-signup{
+    cursor: pointer;
+    height: 45px;
+    width: 250px;
+    padding-top: 20px;
+    background-color: #030637;
+    color: rgba(255, 255, 255, 0.817);
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50px;
+    justify-content: center;
+    margin-left: 170px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+
+  }
+
+  .button-signup:hover{
+    background-color: rgba(255, 255, 255, 0.817); /* Change background color to white on hover */
+    color: #030637; /* Change text color to black on hover */
+   
+    
+  }
+
+  .p236{
+    font-size: 18px;
+  }
+
+  .underline{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block; /* Ensure inline element behaves like a block */
+    transition: transform 0.3s ease; /* Smooth transition */
+    padding-left: 5px;
+    
+  }
+
+  .underline:hover{
+    transform: scale(1.1);
+
+  }
+.confirm-input {
+  margin-top: -18px;
+  position: relative;
+}

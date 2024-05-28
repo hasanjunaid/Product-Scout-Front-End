@@ -1,0 +1,268 @@
+/* Navbar */
+.navss {
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  z-index: 2;
+  background-color: #030637; /* Adjust navbar background color */
+  top: 0px;
+}
+
+/* Calculator Container */
+.calculator-container {
+  top: 20%;
+  width: 80%;
+  margin: 0 auto; /* Center the calculator container */
+  text-align: left;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.calculator-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 160px;
+}
+
+.calculator-form .input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px; /* Add spacing between input groups */
+}
+
+.calculator-form label {
+  margin-bottom: 5px; /* Add spacing between label and input */
+}
+
+.calculator-form input {
+  width: 300px; /* Ensure all input fields have the same width */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 20px; /* Add spacing above buttons */
+}
+
+.calculate-btn,
+.reset-btn {
+  background: none;
+  background-color: #030637;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px; /* Ensure buttons have the same width */
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.817);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.calculate-btn:hover,
+.reset-btn:hover {
+  background-color: rgba(255, 255, 255, 0.817); /* Change background color to white on hover */
+  color: #030637; /* Change text color to black on hover */
+  border-color: #030637;
+}
+
+.calculated-values {
+  margin-top: 160px; /* Add spacing above the calculated values */
+  
+  width: 550px;
+  margin-left: auto; /* Align calculated values to the right side */
+  line-height: 40px;
+}
+
+.calculated-values table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calculated-values th,
+.calculated-values td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left; /* Left-align the text */
+}
+
+.calculated-values th {
+  background-color: #f2f2f2;
+}
+
+.pie-chart {
+  text-align: center;
+}
+
+.pie-chart h2 {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .calculator-container {
+    width: 90%;
+  }
+}
+
+/* Additional Navbar Styles */
+.navc {
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  z-index: 2;
+  background-color: #030637;
+}
+
+.search-containerhc {
+  margin-top: 21px;
+  position: absolute;
+  top: 0px;
+  right: 325px;
+  display: inline-block;
+}
+
+.search-inputhc {
+  padding: 8px 12px;
+  padding-left: 32px;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  height: 30px;
+  width: 350px;
+}
+
+.search-inputhc::placeholder {
+  color: #000000;
+  font-size: 14px;
+}
+
+.search-inputhc:focus {
+  background-color: #e0e0e0;
+}
+
+.Searchbutc {
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 238px;
+  height: 40px;
+  width: 80px;
+  background-color: #030637;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.817); /* Set text color to white by default */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for background-color and text color */
+}
+
+.Searchbutc:hover {
+  background-color: rgba(255, 255, 255, 0.817); /* Change background color to white on hover */
+  color: #030637; /* Change text color to black on hover */
+  border-color: #030637;
+}
+
+.calculatorc {
+  margin-top: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 770px;
+  height: 50px;
+  width: 180px;
+  /* Set default font weight to normal */
+  color: #030637; /* Set text color to black by default */
+  transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+}
+
+.calculatorc:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+  font-weight: bold; /* Make text bold on hover */
+}
+
+.catic {
+  margin-top: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 1085px;
+  height: 50px;
+  width: 180px;
+  /* Set default font weight to normal */
+  color: #030637; /* Set text color to black by default */
+  transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+}
+
+.catic:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+  font-weight: bold; /* Make text bold on hover */
+}
+
+.logoutsc {
+  margin-top: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 15px;
+  height: 50px;
+  width: 180px;
+  /* Set default font weight to normal */
+  color: #030637; /* Set text color to black by default */
+  transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+}
+
+.logoutsc:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+  font-weight: bold; /* Make text bold on hover */
+}
+
+.trendsc {
+  margin-top: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 955px;
+  height: 50px;
+  width: 180px;
+  /* Set default font weight to normal */
+  color: #030637; /* Set text color to black by default */
+  transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+}
+
+.trendsc:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+  font-weight: bold; /* Make text bold on hover */
+}
+
+.labelpc {
+  left: 4%;
+  color: rgba(255, 255, 255, 0.817);
+  font-size: 43px;
+  position: fixed;
+  top: 0px;
+  font-weight: 800;
+}

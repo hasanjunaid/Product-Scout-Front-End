@@ -1,0 +1,272 @@
+
+.categorySelection{
+    text-align: start;
+    position: absolute;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    background-color: #030637;
+  }
+
+  .a11{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 300px;
+  }
+
+  .a5{
+    margin-top: 160px;
+    padding-left: 40px;
+    font-size: 52px;
+    font-weight: 800;
+    z-index: 2000;
+    color: white;
+  }
+
+  .forms{
+    margin-top: 50px;
+    padding-left: 40px;
+    z-index: 2000;
+    max-height: 400px;
+    overflow-y: hidden;
+    column-width: 400px;
+    column-gap: 1px;
+   font-size: small
+  }
+
+  .subpref {
+    margin-left: 40px;
+    margin-top: 70px;
+    cursor: pointer;
+    height: 60px;
+    width: 180px;
+    font-size: 26px;
+    background-color: #FFD2DD;
+    color: #030637;
+    border-color: #030637;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease; /* Smooth transition */
+  }
+
+  .subpref:hover {
+    background-color: #030637; /* Change background color to white on hover */
+    color: #FFD2DD; /* Change text color to black on hover */
+    border-color: #FFD2DD;
+  }
+
+  .forms input[type="checkbox"],
+  .forms label.labelf {
+  cursor: pointer; /* Change cursor to pointer on hover */
+  }
+
+  .forms input[type="checkbox"]:hover,
+  .forms label.labelf:hover {
+  /* Add any hover effect you want */
+  /* For example, changing the text color and background color */
+  color: #FFB6C1; /* Change text color on hover */
+  }
+
+  .labelf{
+    color:#FFD2DD;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  
+  .calculator {
+  margin-top: 18px;
+   text-decoration: underline;
+   font-weight: bold;
+    background:none;
+    border:none;
+    padding:0;
+    cursor: pointer;
+    font-size: 15px;
+    position: absolute;
+    right: 700px;
+    height: 50px;
+    width: 180px;
+    /* Set default font weight to normal */
+    color: #030637; /* Set text color to black by default */
+    transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+    
+  }
+  
+  .calculator:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    font-weight: bold; /* Make text bold on hover */
+  }
+  
+  
+
+
+
+.cati{
+  margin-top: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+   background:none;
+   border:none;
+   padding:0;
+   cursor: pointer;
+   font-size: 15px;
+
+   position: absolute;
+   right: 935px;
+   height: 50px;
+   width: 180px;
+   /* Set default font weight to normal */
+   color: #030637; /* Set text color to black by default */
+   transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+
+}
+
+.cati:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+    font-weight: bold; /* Make text bold on hover */
+}
+
+
+.logouts{
+  margin-top: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+   background:none;
+   border:none;
+   padding:0;
+   cursor: pointer;
+   font-size: 15px;
+
+   position: absolute;
+   right: 15px;
+   height: 50px;
+   width: 180px;
+   /* Set default font weight to normal */
+   color: #030637; /* Set text color to black by default */
+   transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+
+
+
+
+}
+
+.logouts:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+    font-weight: bold; /* Make text bold on hover */
+}
+
+
+
+
+
+.trends{
+  margin-top: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+   background:none;
+   border:none;
+   padding:0;
+   cursor: pointer;
+   font-size: 15px;
+
+   position: absolute;
+   right: 835px;
+   height: 50px;
+   width: 180px;
+   /* Set default font weight to normal */
+   color: #030637; /* Set text color to black by default */
+   transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+
+
+}
+
+.trends:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+    font-weight: bold; /* Make text bold on hover */
+}
+
+
+
+.nav{
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.817);
+}
+
+.search-containerh {
+  margin-top: 21px;
+  position: absolute;
+  top: 0px;
+  right: 265px;
+  display: inline-block;
+  
+}
+
+.search-inputh {
+
+  padding: 8px 12px;
+  padding-left: 32px;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  height: 30px;
+  width: 350px;
+}
+
+.search-inputh::placeholder {
+  color: #000000;
+  font-size: 14px;
+}
+
+.search-inputh:focus {
+  background-color: #e0e0e0;
+}
+
+.Searchbut {
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 178px;
+  height: 40px;
+  width: 80px;
+  background-color: #030637;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.817); /* Set text color to white by default */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for background-color and text color */
+  
+}
+
+.Searchbut:hover {
+  background-color: rgba(255, 255, 255, 0.817); /* Change background color to white on hover */
+  color: #030637; /* Change text color to black on hover */
+  border-color: #030637;
+}
+
+.labelh{
+  left: 4%;
+  color: #030637;
+  font-size: 43px;
+  position: fixed;
+  top:0px; 
+  font-weight: 800;
+
+}
+
+.navss{
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  z-index: 2;
+  background-color: #030637;
+}
