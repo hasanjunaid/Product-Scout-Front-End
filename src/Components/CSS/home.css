@@ -527,7 +527,7 @@
     .nav-item-ls{
         width: 80px;
         top: 25px;
-        right: 15px;
+        right: 10px;
     }
 
     .nav-item-ls:hover{
@@ -539,7 +539,7 @@
     .nav-item-ls-2{
         width: 80px;
         top: 25px;
-        right: 105px;
+        right: 100px;
     }
     
     .nav-item-ls-2:hover{
