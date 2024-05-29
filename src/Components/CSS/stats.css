@@ -510,3 +510,202 @@
   top:0px; 
   font-weight: 800;
 }
+
+
+@media only screen and (max-width: 700px) {
+
+  
+  .labelc{
+    left: 4%;
+    color: rgba(255, 255, 255, 0.817);
+    
+    font-size: 33px;
+    position: fixed;
+    top:-25px; 
+    font-weight: 800;
+  
+  }
+
+  .search-containerz {
+    margin-top: 21px;
+    position: absolute;
+    top: 35px;
+    right: 110px;
+    display: inline-block;
+    
+  }
+
+  .search-input {
+  
+    padding: 8px 12px;
+    padding-left: 32px;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    height: 20px;
+    width: 220px;
+  }
+  
+  .search-input::placeholder {
+    color: #000000;
+    font-size: 14px;
+  }
+  
+  .search-input:focus {
+    background-color: #e0e0e0;
+  }
+  
+  .Searchbuttz {
+    cursor: pointer;
+    position: absolute;
+    top: 57px;
+    right: 18px;
+    height: 35px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, 0.817);
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #030637; /* Set text color to white by default */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background-color and text color */
+    
+  }
+
+  .logoutz{
+    margin-top: -30px;
+    text-decoration: underline;
+    font-weight: bold;
+     background:none;
+     border:none;
+     padding:0;
+     cursor: pointer;
+     font-size: 15px;
+  
+     position: absolute;
+     left: 225px;
+     height: 50px;
+     width: 180px;
+     /* Set default font weight to normal */
+    color: rgba(255, 255, 255, 0.817);
+    /* Set text color to black by default */
+     transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+  
+  
+  
+  
+  }
+
+
+  .catz{
+    margin-top: 6px;
+    text-decoration: underline;
+    font-weight: bold;
+     background:none;
+     border:none;
+     padding:0;
+     cursor: pointer;
+     font-size: 15px;
+     
+     position: absolute;
+     right: 255px;
+     height: 50px;
+     width: 180px;
+     /* Set default font weight to normal */
+     color: rgba(255, 255, 255, 0.817);
+     /* Set text color to black by default */
+     transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+  
+  }
+
+  .trendz{
+    margin-top: 6px;
+    text-decoration: underline;
+    font-weight: bold;
+     background:none;
+     border:none;
+     padding:0;
+     cursor: pointer;
+     font-size: 15px;
+  
+     position: absolute;
+     right: 175px;
+     height: 50px;
+     width: 180px;
+     /* Set default font weight to normal */
+     color: rgba(255, 255, 255, 0.817);/* Set text color to black by default */
+     transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+  
+  
+  }
+
+  .calcz {
+    margin-top: 6px;
+     text-decoration: underline;
+     font-weight: bold;
+      background:none;
+      border:none;
+      padding:0;
+      cursor: pointer;
+      font-size: 15px;
+      position: absolute;
+      left: 140px;
+      height: 50px;
+      width: 180px;
+      /* Set default font weight to normal */
+      color:rgba(255, 255, 255, 0.817);/* Set text color to black by default */
+      transition: transform 0.3s, font-weight 0.3s; /* Smooth transition for transform and font-weight */
+      
+    }
+    .home{
+      background-color:  rgba(255, 255, 255, 0.817);
+      height: 200%;
+    }
+
+
+    .hotcategory{
+      position: absolute;
+      width: 74%;
+      height: 80%;
+      background-color: #FFD2DD;
+      top: 50%;
+      left: 20px;
+      border-radius: 0px;
+      transform: translate(0%, -42%);
+      text-align: start;
+      padding: 30px;
+      overflow-y: auto;
+    }
+  
+    .hotproduct{
+      cursor: pointer;
+      height: 40px;
+      /* border: solid 2px;
+      border-color: #5E4DCD; */
+      border-bottom: 10px solid #030637;
+      padding: 20px;
+      border-radius: 20px;
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-weight: 900;
+      color: #000000;
+      width: 80%;
+      background-color: white;
+  
+    }
+
+
+    .levelff{
+      position: absolute;
+      right: 115px;
+      top: 137%;
+    }
+   
+    .chart2 {
+      padding-top: 50px;
+      position: absolute;
+      right: 40px;
+  
+    }
+}
