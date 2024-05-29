@@ -139,3 +139,84 @@
   margin-top: -18px;
   position: relative;
 }
+
+
+@media only screen and (max-width: 700px) {
+
+  .mainsignin{
+    position: absolute;
+    height: 630px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.817);
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.mainlogin{
+  position: absolute;
+  height: 480px;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.817);
+  border-radius: 30px;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+
+.p1{
+  text-align: center;
+  width: 80%;
+  margin-left: 35px;
+  margin-top: -10px;
+  justify-content: center;
+}
+.search-input-login{
+  position: relative;
+    padding: 8px 12px;
+    padding-left: 32px;
+    font-size: 16px;
+    background-color: #fffafa;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    height: 50px;
+    width: 280px;
+    margin-top: 10px;
+}
+
+.button-signup{
+  cursor: pointer;
+  height: 45px;
+  width: 250px;
+  padding-top: 20px;
+  background-color: #030637;
+  color: rgba(255, 255, 255, 0.817);
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 50px;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+
+}
+.a1{
+  position: absolute;
+  height: 100px;
+  bottom: 0px;
+  right: 0px;
+
+
+}
+
+.a2{
+  position: absolute;
+  height: 100px;
+  top:0px;
+  left: 0px;
+}
+
+
+}
